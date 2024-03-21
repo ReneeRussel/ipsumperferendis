@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "name": "ipsumperferendis",
+  "description": "Utility function for exhaustiveness checking with typed JS (TS or Flow)",
+  "keywords": [
+    "voluptas",
+    "typed",
+    "flow",
+    "typescript",
+    "est",
+    "dolores",
+    "non",
+    "tagged unions",
+    "disjoint",
+    "at",
+    "autem",
+    "default"
+  ],
+  "main": "lib/unreachable",
+  "module": "src/unreachable",
+  "types": "src/unreachable",
+  "author": "LeilaniBrown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReneeRussel/ipsumperferendis.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-flow-node": "^1.0.2",
+    "babel-register": "6.24.1",
+    "blue-tape": "^1.0.0",
+    "documentation": "^5.1.0",
+    "flow-bin": "^0.52.0",
+    "flow-copy-source": "^1.2.0",
+    "husky": "^0.14.0",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --parser flow --no-semi --write",
+      "git add"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ReneeRussel/ipsumperferendis.git/issues"
+  }
+}
